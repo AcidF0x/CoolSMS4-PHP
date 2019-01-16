@@ -1,0 +1,18 @@
+{
+    "name": "acidf0x/coolsms4php",
+    "description": "Cool SMS API v4 PHP Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Duhui Cho",
+            "email": "ic_jdh@me.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "AcidF0x\\CoolSMSv4\\": "src/"
+      }
+    },
+  "require": {}
+}
