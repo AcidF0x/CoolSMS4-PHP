@@ -3,10 +3,10 @@
 namespace AcidF0x\CoolSMSv4\Auth;
 
 /**
- * Interface IAuth
+ * Interface Authenticatable
  * @package AcidF0x\CoolSMSv4\Auth
  */
-interface IAuth
+interface Authenticatable
 {
     /**
      * @param string $apiKey

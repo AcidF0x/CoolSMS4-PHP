@@ -1,6 +1,6 @@
 <?php
 
-namespace AcidF0x\CoolSMSv4;
+namespace AcidF0x\CoolSMSv4\Message;
 
 class KakaoOption
 {

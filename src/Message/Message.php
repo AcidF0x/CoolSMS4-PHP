@@ -1,8 +1,10 @@
 <?php
 
-namespace AcidF0x\CoolSMSv4;
+namespace AcidF0x\CoolSMSv4\Message;
 
-class Message
+use AcidF0x\CoolSMSv4\Sendable;
+
+class Message implements Sendable
 {
     /**
      * @var string $to
@@ -201,5 +203,10 @@ class Message
     {
         $this->autoTypeDetect = $autoTypeDetect;
         return $this;
+    }
+
+    public function serialize()
+    {
+
     }
 }

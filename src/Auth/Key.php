@@ -8,7 +8,7 @@ use InvalidArgumentException;
  * Class Key
  * @package AcidF0x\CoolSMSv4\Auth
  */
-class Key implements IAuth
+class Key implements Authenticatable
 {
     const SUPPORT_HASH_ALGOS = [
         'SHA256' => 'HMAC-SHA256',
